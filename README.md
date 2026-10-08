@@ -46,6 +46,7 @@ PYTHONPATH=. harbor run -p csv-dedupe-weak -a agents.lazy:LazyCopyAgent   # Chec
 | `scripts/triage.py` | Sorts a job's trials into passed, failed, timed out, verifier broken, infra |
 | `scripts/always.py` | Counts tasks solved in every attempt (pass^k) |
 | `scripts/cost.py` | Total cost and cost per solved trial from `result.json` files |
+| `docs/img/` | The figures used in the post |
 
 Usage for the scripts: `python3 scripts/triage.py jobs/<job-name>`.
 
